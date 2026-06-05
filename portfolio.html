@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #12dad3, #d8e4e2);
+            color: black;
+        }
+        header{
+            height: 20vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            text-align: center;
+        }
+        header h1{
+            font-size: 42px;
+            font-weight: bold;
+        }
+        header p{
+            margin-top: 5px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        section{
+            padding: 15px 20px;
+            text-align: center;
+        }
+        h2{
+            margin-bottom: 12px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .about p{
+            max-width: 800px;
+            margin: auto;
+            line-height: 1.5;
+            font-size: 16px;
+        }
+        .skills-container{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .skill{
+            background: rgba(255,255,255,0.4);
+            padding: 10px 18px;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+        .projects-container{
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .project{
+            width: 230px;
+            padding: 15px;
+            background: rgba(255,255,255,0.4);
+            border-radius: 10px;
+        }
+        .project h3{
+            margin-bottom: 8px;
+            font-size: 20px;
+        }
+        .project p{
+            font-size: 14px;
+            line-height: 1.4;
+        }
+        .contact p{
+            margin: 5px 0;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ARUNA P</h1>
+        <p>Python FullStack Developer</p>
+    </header>
+    <section class="about">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate Python FullStack Developer interested in
+            developing web applications using Python, HTML, CSS, MySQL and Django.
+        </p>
+    </section>
+    <section class="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">Python</div>
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">MySQL</div>
+            <div class="skill">Django</div>
+        </div>
+    </section>
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>
+                    Personal portfolio website using HTML and CSS.
+                </p>
+            </div>
+            <div class="project">
+                <h3>E-Commerce DBMS</h3>
+                <p>
+                    Online shopping database project using MySQL.
+                </p>
+            </div>
+            <div class="project">
+                <h3>Student Grade Tracker</h3>
+                <p>
+                    Django-based application to manage student grades.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Email: arunaperumal2005@gmail.com</p>
+        <p>Location: Tamil Nadu, India</p>
+    </section>
+</body>
+</html>

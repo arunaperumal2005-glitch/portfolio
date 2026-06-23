@@ -50,6 +50,7 @@ Provides email and location details.
 ## Screenshots
 
 ### portfolio
+![Portfolio Page](portfolio.png)
 
 ## Learning Outcomes
 
